@@ -1,0 +1,63 @@
+{"intents": [
+  {"tag":"greeting 1",
+      "patterns":["hallo","halo", "hello", "hai", "hi", "hei", "hy"],
+      "responses":["Haloo! Hii Negoin disini! Ada yang bisa dibantu?"]
+  },
+  {"tag":"greeting 2",
+      "patterns":["pagi", "morning", "selamat pagi", "morn","guten morgen"],
+      "responses":["Selamat pagi! Hii Negoin disini! Ada yang bisa dibantu?"]
+  },
+  {"tag":"greeting 3",
+      "patterns":["siang", "selamat siang", "afternoon"],
+      "responses":["Selamat siang! Hii Negoin disini! Ada yang bisa dibantu?"]
+  },
+  {"tag":"greeting 4",
+      "patterns":["bro", "sis", "gan", "sista", "min","negoin","apakah ini Negoin?"],
+      "responses":["Halooo! Hii Negoin disini! Ada yang bisa dibantu?"]
+  },
+  {"tag":"panduan",
+    "patterns":["Cara Nego", "cara nego", "caranego"],
+    "responses":["Berikut saya sampaikan cara Nego di toko kami, 1. untuk melihat spesifikasi iphone dan harganya ketik nama iphone yang ingin diketahui misal 'iphone 11 pro max'atau 'iphone xr', 2. Untuk nego harga ketik 'nego_nama iphone_harga yang ingin ditawar + jt' misal 'nego_11 pro max_14jt atau nego_xr_7,2jt'.."]
+  },
+  {"tag":"tanya spesifikasi",
+      "patterns":["cek spek", "tanya spek", "tanya spesifikasi", "tanya specs"],
+      "responses":["okaii, sini negoin bantu! mau cek spek iphone apa gan? ketik 1. untuk iphone xr, dan 2. untuk iphone 11 promax"]
+  },
+  {"tag":"spesifikasi iphone XR",
+      "patterns":["1","spesifikasi iphone XR","bagaimana spesifikasi iphone XR", "spek iphone XR","iphone xr","iphon xr","xr"],
+      "responses":["Layar Liquid Retina HD LCD 6,1 inci. Tahan air dan debu (1 meter hingga selama 30 menit, IP67). Kamera Wide 12 MP tunggal dengan mode Potret, Pencahayaan Potret, Depth Control, Smart HDR, dan video 4K hingga 60 fps. Sistem kamera depan TrueDepth 7 MP dengan mode Potret, Pencahayaan Potret, Depth Control, dan video 1080p. Face ID untuk autentikasi aman. Memiliki Cip A12 Bionic dengan Neural Engine generasi kedua. Pengisian daya nirkabel dan kemampuan isi daya yang cepat. iOS 14 dengan Mode Gelap, alat baru untuk pengeditan foto dan video, dan fitur privasi baru. Harganya Rp 7.875.000, yuk buruan di checkout!"]
+  },
+  {"tag":"spesifikasi iphone 11 Pro Max",
+      "patterns":["2","spesifikasi iphone 11 Pro Max", "bagaimana spesifikasi iphone 11 Pro Max", "spek iphone pro max","iphone 11 pro max","iphone 11 promax"],
+      "responses":["Layar Super Retina XDR OLED 6,5 inci. Tahan air dan debu (4 meter hingga selama 30 menit, IP68). Sistem tiga kamera dengan kamera Ultra Wide, Wide, dan Telefoto 12 MP; mode Malam, mode Potret, dan video 4K hingga 60 fps. Kamera depan TrueDepth 12 MP dengan Mode Potret, video 4K, dan video gerakan lambat. Face ID untuk autentikasi aman. Chip A13 Bionic dengan Neural Engine generasi ketiga. Pengisian daya cepat dengan adaptor 18 W yang disertakan. Pengisian daya nirkabel. iOS 13 dengan Mode Gelap, alat baru untuk pengeditan foto dan video, dan fitur privasi baru. Harganya Rp 17.325.000, yuk buruan di checkout!"]
+  },
+  {"tag":"basabasi 1",
+      "patterns":["boleh ditawar?","harganya bisa kurang?","negoin bisa nego harganya?","bisa turun?", "bisa nego?", "bisa ditawar?"],
+      "responses":["wah tentu bisa ditawar dong! mau nego Iphone apa nih?"]
+  },
+  {"tag":"nego iphone 11 pro MAX",
+      "patterns":["nego_11 pro max_16.6jt", "nego_11 pro max_16,5jt", "nego_11 pro max_16,4jt", "nego_11 pro max_16,3jt", "nego_11 pro max_16,2jt", "nego_11 pro max_16,1jt", "nego_11 pro max_16jt", "nego_11 pro max_15,9jt", "nego_11 pro max_15,8jt","nego_11 pro max_15,7jt","nego_11 pro max_15,6jt","nego_11 pro max_15,5jt","nego_11 pro max_15,4jt","nego_11 pro max_15,3jt","nego_11 pro max_15,2jt","nego_11 pro max_15,1jt","nego_11 pro max_15jt","nego_11 pro max_14jt","nego_11 pro max_13jt","nego_11 pro max_12jt","nego_11 pro max_11jt","nego_11 pro max_10jt","nego_11 pro max_9jt"],
+      "responses":["waduh, belom dapet! naikin dikit harganya gan"]
+  },
+  {"tag":"nego jadi iphone 11 pro MAX",
+      "patterns":["nego_11 pro max_17,3jt", "nego_11 pro max_17,2jt","nego_11 pro max_17,1jt","nego_11 pro max_17jt","nego_11 pro max_16,9jt","nego_11 pro max_16,8jt","nego_11 pro max_16,7jt"],
+      "responses":["WAHH DEAL! lanjut ke pembayaran ya"]
+  },
+  {"tag":"nego iphone XR",
+      "patterns":["nego_xr_7.4jt", "nego_XR_7,3jt","nego_xr_7,3jt", "nego_XR_7,2jt","nego_xr_7,2jt","nego_XR_7,1jt","nego_xr_7,1jt","nego_XR_7jt","nego_xr_7jt","nego_xr_6,9jt","nego_xr_6,8jt","nego_xr_6,7jt","nego_xr_6,6jt","nego_xr_6,5jt","nego_xr_6,4jt","nego_xr_6,3jt","nego_xr_6,2jt","nego_xr_6,1jt","nego_xr_6jt","nego_xr_5,9jt","nego_xr_5,8jt","nego_xr_5,7jt","nego_xr_5,6jt","nego_xr_4jt","nego_xr_3jt","nego_xr_2jt","nego_xr_1jt"],
+      "responses":["waduh, belom dapet! naikin dikit harganya gan"]
+  },
+  {"tag":"nego jadi iphone XR",
+      "patterns":["nego_XR_7.5jt","nego_xr_7.5jt","nego_XR_7.6jt","nego_xr_7.6jt","nego_XR_7.7jt","nego_xr_7.7jt","nego_XR_7.8jt","nego_xr_7.8jt"],
+      "responses":["WAHH DEAL! lanjut ke pembayaran ya!"]
+  },
+  {"tag":"thanks",
+      "patterns":["Thankyou", "Thanks", "Terimakasih", "Makasih","Terimakasih banyak", "makasi", "tengkyu", "thx u"],
+      "responses":["You're Welcome! senang bisa membantu. ada yang bisa dibantu lagi?"]
+  },
+  {"tag":"goodbye",
+      "patterns":["Bye","Dah","Dadah","Byee","Good bye","Selamat tinggal","Sampai jumpa","Bai","See you", "see u"],
+      "responses":["Bye, see u! semoga harimu menyenangkan yaa!"]
+  }
+  ]
+}  

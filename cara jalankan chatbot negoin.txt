@@ -1,0 +1,40 @@
+langkah paling awal
+1. install git
+2. buka command pramp(CMD) ketik git clone https://github.com/USSR734/Negoin.git
+
+cara menginstall librarinya
+1. download dan install miniconda
+2. buat env di command pramp(CMD) ketik conda create -n negoin
+3. ketik conda activate negoin
+4. krtik cd Negoin
+5. ketik conda install pytorch torchvision torchaudio cpuonly -c pytorch
+6. ketik conda install -c anaconda nltk
+7. ketik conda install -c anaconda flask
+8. ketik conda install -c anaconda numpy
+
+cara mengubah percakapan chatbot
+1. buka file intents.json
+2. "tag" adalah judul dari percakapan
+3. "patterns" adalah pertanyaan yang ingin ditanyakan
+4. "responses" adalah jawaban dari si chatbot yang kalian harapkan
+5. silahkan diubah sesuai yang kalian inginkan
+6. dan save filenya
+7. ohh ya untuk mengubahnya saya sarankan kalian install vs code
+
+cara mentraining percakapan kalian
+1. ketik conda activate negoin
+2. krtik cd Negoin
+3. ketik python train.py
+4. tunggu sampai prosesnya selesai
+5. ephoch adalah akurasi dari chatbot kalian dalam menjawab pertanyaan
+6. loss adalah persentase kesalahan saat merespon oleh chatbot
+
+*note semakin tinggi lostnya maka chatbotnya semakin buruk dan sebaliknya
+
+cara menjalankan chatbot negoin
+1. ketik conda activate negoin
+2. krtik cd Negoin
+3. ketik python app.py
+4. copy alamat url localhost pada running on (http://127.0.0.1:5000/) localhost bisa berubah2 sesuai pc kalian
+5. paste url localhost tadi pada browser kalian dan tunggu sampe muncul dashboardnya
+6. taraaaaaa chatbot sudah bisa dipakai
